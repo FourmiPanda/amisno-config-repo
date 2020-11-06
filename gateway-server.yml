@@ -7,13 +7,6 @@ spring:
       discovery:
         locator:
           enabled: true
-#      routes:
-#        - id: order-service
-#          predicates:
-#            - "Path=/order/**"
-#          filters:
-#            - StripPrefix=1
-#          uri: "http://amisno-order-service:8081"
 
 eureka:
   instance:
